@@ -8,7 +8,7 @@ class Hog extends Component {
         super()
 
         this.state = {
-            showDetails: true  // Show details by default
+            showDetails: false  // Hide details by default
         }
 
         this.renderDetails = this.renderDetails.bind(this)
