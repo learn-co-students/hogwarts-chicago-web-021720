@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Hog from './Hog'
+import HogCard from './HogCard'
 
 
 export class DisplayHogs extends Component {
@@ -7,7 +7,7 @@ export class DisplayHogs extends Component {
     render() {
         return (
             <div className="ui grid container cards">
-                {this.props.hogs.map(hog => <Hog hog={hog}/>)}
+                {this.props.hogs.map(hog => <HogCard hog={hog}/>)}
             </div>
         )
     }
