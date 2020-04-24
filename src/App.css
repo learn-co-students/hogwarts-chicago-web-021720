@@ -138,3 +138,22 @@ ul {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.ui.card:hover{
+  background-color: pink;
+}
+
+#buttons{
+  padding: 20px;
+}
+
+.ui.grid.container{
+  padding-left: 175px;
+
+}
+
+.hidebutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
