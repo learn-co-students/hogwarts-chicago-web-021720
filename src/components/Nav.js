@@ -4,11 +4,11 @@ import React from "react";
 const Nav = () => {
   return (
     <div className="navWrapper">
-      <span className="headerText">Hogwarts</span>
+      <p className="headerText">Hogwarts</p>
       <div className="TwirlyPig">
         <img src={piggy} className="App-logo" alt="piggy" />
       </div>
-      <span className="normalText">A React App for County Fair Hog Fans</span>
+      <p className="normalText">A React App for County Fair Hog Fans</p>
     </div>
   );
 };
